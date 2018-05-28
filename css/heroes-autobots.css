@@ -1,0 +1,676 @@
+body {
+  height: 100%;
+  background: url('../images/%D1%84%D0%BE%D0%BD.jpg') rgb(21, 21, 21);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(187, 187, 187);
+}
+
+.element {
+  float: left;
+}
+
+.text-10 p,
+.text-12 p,
+.text-14 p,
+.text-16 p,
+.text-18 p {
+  margin-bottom: 1em;
+}
+
+._button {
+  display: block;
+  float: left;
+  border-radius: 3px;
+  font-size: 1em;
+  text-align: center;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -o-transition: 400ms;
+  -ms-transition: 400ms;
+  transition: 400ms;
+}
+
+.container-1 {
+  position: relative;
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(18, 18, 18, 0.88);
+}
+
+.container-10 {
+  float: left;
+  clear: both;
+  width: 90.625%;
+  height: 440px;
+  margin: 100px 0 0 5.9375%;
+}
+
+.container-11 {
+  float: left;
+  clear: both;
+  width: 90.625%;
+  height: 440px;
+  margin: 100px 0 0 5.25%;
+}
+
+.container-12 {
+  float: left;
+  clear: both;
+  width: 90.625%;
+  height: 440px;
+  margin: 100px 0 0 6%;
+}
+
+.container-13 {
+  float: left;
+  clear: both;
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  height: 118px;
+  margin-top: 45px;
+  background-color: rgba(18, 18, 18, 0.78);
+}
+
+.container-2 {
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 100%;
+  height: 487px;
+  background-image: url('../images/%D0%97%D0%BD%D0%B0%D0%BA%D0%B8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container-3 {
+  float: left;
+  width: 100%;
+  height: 146px;
+  background-color: rgba(18, 18, 18, 0.78);
+}
+
+.container-4 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 15;
+  width: 100%;
+  height: 83px;
+  margin-top: -83px;
+  background-color: rgba(18, 18, 18, 0.78);
+}
+
+.container-5 {
+  width: 745px;
+  height: 90px;
+  margin: 544px auto 0;
+}
+
+.container-6 {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 106px;
+  margin-top: 47px;
+}
+
+.container-7 {
+  float: left;
+  width: 100%;
+  height: 102px;
+}
+
+.container-8 {
+  float: left;
+  clear: both;
+  width: 90.625%;
+  height: 453px;
+  margin: 100px 0 0 6%;
+}
+
+.container-9 {
+  float: left;
+  clear: both;
+  width: 90.625%;
+  height: 440px;
+  margin: 106px 0 0 5.9375%;
+}
+
+.element-1 {
+  width: 105px;
+  min-width: 105px;
+  max-width: 105px;
+  height: 110px;
+  min-height: 110px;
+  max-height: 110px;
+  margin: 16px 0 0 29px;
+  background: url('../images/icon.ico') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-10 {
+  width: 40.2758620689%;
+  height: 306px;
+  margin: 32px 0 0 5.65302%;
+  background: url('../images/Ratchet%201.jpg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-11 {
+  width: 40.2758620689%;
+  height: 306px;
+  margin: 32px 0 0 5.23276%;
+  background: url('../images/Bulkhead.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-4 {
+  width: 0.25%;
+  height: 63px;
+  margin: 8px 0 0 24px;
+  background-color: rgb(48, 160, 193);
+}
+
+.element-2,
+.element-3,
+.element-5 {
+  width: 0.25%;
+  height: 63px;
+  margin: 8px 0 0 17px;
+  background-color: rgb(48, 160, 193);
+}
+
+.element-6 {
+  width: 0.25%;
+  height: 63px;
+  margin: 8px 0 0 19px;
+  background-color: rgb(48, 160, 193);
+}
+
+.element-7 {
+  width: 40.2758620689%;
+  height: 312px;
+  margin: 32px 0 0 3.17457%;
+  background: url('../images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(169).png') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-8 {
+  width: 40.2758620689%;
+  height: 312px;
+  margin: 32px 0 0 3.17457%;
+  background: url('../images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(174).png') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-9 {
+  width: 40.2758620689%;
+  height: 306px;
+  margin: 32px 0 0 4.00216%;
+  background: url('../images/%D0%90%D1%80%D1%81%D0%B8.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.text-1 {
+  float: left;
+  margin: 40px 0 0 24px;
+  font-size: 3.063em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text-10 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 33;
+  width: 48.4137931034%;
+  min-height: 302px;
+  margin: 21px 0 0 4.96121%;
+  font-size: 1em;
+  text-align: justify;
+  color: rgb(187, 187, 187);
+}
+
+.text-12 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 37;
+  width: 48.4137931034%;
+  min-height: 302px;
+  margin: 21px 0 0 4.96121%;
+  font-size: 1em;
+  text-align: justify;
+  color: rgb(187, 187, 187);
+}
+
+.text-14 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 42;
+  width: 46.8965517241%;
+  min-height: 312px;
+  margin: 32px 0 0 5.65302%;
+  font-size: 1em;
+  text-align: justify;
+  color: rgb(187, 187, 187);
+}
+
+.text-16 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 46;
+  width: 45.9310344827%;
+  min-height: 323px;
+  margin: 32px 0 0 4.96121%;
+  font-size: 1em;
+  text-align: justify;
+  color: rgb(187, 187, 187);
+}
+
+.text-11,
+.text-13,
+.text-15,
+.text-17 {
+  float: left;
+  width: 27.1724137931%;
+  min-height: 42px;
+  margin: 17px 0 0 2.2069%;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgb(187, 187, 187);
+}
+
+.text-18 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 50;
+  width: 46.0689655172%;
+  min-height: 326px;
+  margin: 32px 0 0 5.24138%;
+  font-size: 1em;
+  text-align: justify;
+  color: rgb(187, 187, 187);
+}
+
+.text-19 {
+  float: left;
+  width: 37%;
+  min-height: 32px;
+  margin: 50px 0 0 63%;
+  font-style: italic;
+  font-size: 1.188em;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  width: 18.75%;
+  margin: 7px auto 0;
+  font-size: 1.625em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(187, 187, 187);
+}
+
+.text-3 {
+  float: left;
+  clear: both;
+  width: 151px;
+  min-width: 70px;
+  min-height: 30px;
+  margin: 20px 0 0 34px;
+  border-bottom: 3px solid rgb(27, 27, 27);
+  font-size: 1.125em;
+  text-align: center;
+  color: rgb(48, 160, 193);
+  -webkit-transition: 350ms;
+  -moz-transition: 350ms;
+  -o-transition: 350ms;
+  -ms-transition: 350ms;
+  transition: 350ms;
+}
+
+.text-4 {
+  float: right;
+  width: 77px;
+  min-width: 70px;
+  min-height: 30px;
+  margin: 20px 475px 0 0;
+  border-bottom: 3px solid rgb(27, 27, 27);
+  font-size: 1.125em;
+  text-align: center;
+  color: rgb(48, 160, 193);
+  -webkit-transition: 350ms;
+  -moz-transition: 350ms;
+  -o-transition: 350ms;
+  -ms-transition: 350ms;
+  transition: 350ms;
+}
+
+.text-5 {
+  position: relative;
+  float: right;
+  clear: both;
+  z-index: 23;
+  width: 60px;
+  min-width: 70px;
+  min-height: 30px;
+  margin: -30px 350px 0 0;
+  border-bottom: 3px solid rgb(27, 27, 27);
+  font-size: 1.125em;
+  text-align: center;
+  color: rgb(48, 160, 193);
+  -webkit-transition: 350ms;
+  -moz-transition: 350ms;
+  -o-transition: 350ms;
+  -ms-transition: 350ms;
+  transition: 350ms;
+}
+
+.text-6 {
+  float: right;
+  clear: both;
+  width: 60px;
+  min-width: 70px;
+  min-height: 30px;
+  margin: -30px 213px 0 0;
+  border-bottom: 3px solid rgb(27, 27, 27);
+  font-size: 1.125em;
+  text-align: center;
+  color: rgb(48, 160, 193);
+  -webkit-transition: 350ms;
+  -moz-transition: 350ms;
+  -o-transition: 350ms;
+  -ms-transition: 350ms;
+  transition: 350ms;
+}
+
+.text-7 {
+  float: right;
+  clear: both;
+  width: 80px;
+  min-width: 70px;
+  min-height: 30px;
+  margin: -30px 62px 0 0;
+  border-bottom: 3px solid rgb(27, 27, 27);
+  font-size: 1.125em;
+  text-align: center;
+  color: rgb(48, 160, 193);
+  -webkit-transition: 350ms;
+  -moz-transition: 350ms;
+  -o-transition: 350ms;
+  -ms-transition: 350ms;
+  transition: 350ms;
+}
+
+.text-3:hover,
+.text-4:hover,
+.text-5:hover,
+.text-6:hover,
+.text-7:hover {
+  border-bottom: 3 solid rgb(48, 160, 193);
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: rgb(187, 187, 187);
+}
+
+.text-3:active,
+.text-4:active,
+.text-5:active,
+.text-6:active,
+.text-7:active {
+  border-bottom-color: rgb(48, 160, 193);
+  color: rgb(255, 255, 255);
+}
+
+.text-3:focus,
+.text-4:focus,
+.text-5:focus,
+.text-6:focus,
+.text-7:focus {
+  border-bottom-color: rgb(27, 27, 27);
+  color: rgb(193, 48, 48);
+}
+
+.text-8 {
+  float: left;
+  clear: both;
+  min-height: 25px;
+  margin: 2838px 0 0 48.625%;
+  padding: 9px;
+  border-radius: 5px;
+  background-color: rgb(28, 92, 111);
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgb(187, 187, 187);
+}
+
+.text-9 {
+  float: left;
+  width: 31.0344827586%;
+  min-height: 42px;
+  margin: 17px 0 0 2.2069%;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgb(187, 187, 187);
+}
+
+.container ._button-1 {
+  width: 95px;
+  min-width: 90px;
+  max-width: 95px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  margin: 13px 0 0 19px;
+  background-color: rgb(18, 18, 18);
+  font-weight: 700;
+  color: rgb(187, 187, 187);
+}
+
+.container ._button-10 {
+  clear: both;
+  width: 18%;
+  height: 57px;
+  margin: 116px 0 0 623px;
+  background-color: rgb(48, 160, 193);
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-2 {
+  width: 95px;
+  min-width: 90px;
+  max-width: 95px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  margin: 13px 0 0 17px;
+  background-color: rgb(18, 18, 18);
+  font-weight: 700;
+  color: rgb(187, 187, 187);
+}
+
+.container ._button-3 {
+  width: 95px;
+  min-width: 90px;
+  max-width: 95px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  margin: 13px 0 0 17px;
+  background-color: rgb(18, 18, 18);
+  font-weight: 700;
+  color: rgb(48, 160, 193);
+}
+
+.container ._button-4 {
+  width: 95px;
+  min-width: 90px;
+  max-width: 95px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  margin: 13px 0 0 21px;
+  background-color: rgb(18, 18, 18);
+  font-weight: 700;
+  color: rgb(187, 187, 187);
+}
+
+.container ._button-1:hover,
+.container ._button-2:hover,
+.container ._button-3:hover,
+.container ._button-4:hover {
+  border-radius: 10px;
+  background-color: rgb(48, 160, 193);
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-1:active,
+.container ._button-2:active,
+.container ._button-3:active,
+.container ._button-4:active {
+  background-color: rgb(28, 92, 111);
+  box-shadow: 0 0 13px rgb(48, 160, 193) inset;
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-5 {
+  width: 95px;
+  min-width: 90px;
+  max-width: 95px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  margin: 13px 0 0 17px;
+  background-color: rgb(18, 18, 18);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.container ._button-6 {
+  width: 95px;
+  min-width: 90px;
+  max-width: 95px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  margin: 13px 0 0 16px;
+  background-color: rgb(18, 18, 18);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.container ._button-5:hover,
+.container ._button-6:hover {
+  border-radius: 10px;
+  background-color: rgb(48, 160, 193);
+}
+
+.container ._button-5:active,
+.container ._button-6:active {
+  background-color: rgb(28, 92, 111);
+  box-shadow: 0 0 13px rgb(48, 160, 193) inset;
+}
+
+.container ._button-7 {
+  width: 19.3288590604%;
+  height: 57px;
+  margin-top: 19px;
+  background-color: rgb(48, 160, 193);
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-8 {
+  width: 19.3288590604%;
+  height: 57px;
+  margin: 19px 0 0 157px;
+  background-color: rgb(48, 160, 193);
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-9 {
+  width: 19.3288590604%;
+  height: 57px;
+  margin: 19px 0 0 155px;
+  background-color: rgb(48, 160, 193);
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-10:hover,
+.container ._button-7:hover,
+.container ._button-8:hover,
+.container ._button-9:hover {
+  background-color: rgb(28, 92, 111);
+}
+
+.container ._button-10:active,
+.container ._button-7:active,
+.container ._button-8:active,
+.container ._button-9:active {
+  background-color: rgb(48, 160, 193);
+  box-shadow: 11px -11px 1px rgb(28, 92, 111);
+}
+
+.container ._button-10:focus,
+.container ._button-7:focus,
+.container ._button-8:focus,
+.container ._button-9:focus {
+  background-color: rgb(34, 114, 138);
+}
+
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}

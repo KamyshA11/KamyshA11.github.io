@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>TF:P | Main</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/main-grid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top - 150;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+
+  
+</head>
+<body class="body page-main clearfix">
+  <div class="container container-1 clearfix">
+    <div id="1a" class="container container-2 clearfix">
+      <div class="container container-3 clearfix">
+        <div class="element element-1"></div>
+        <p class="text text-1">Transformers: Prime</p>
+      </div>
+    </div>
+    <div class="container container-4 clearfix">
+      <button class="_button _button-1">Главная</button>
+      <div class="element element-2"></div>
+      <button onClick="window.location='universe.html';" class="_button _button-2">Вселенная</button>
+      <div class="element element-3"></div>
+      <button onClick="window.location='heroes-autobots.html';" class="_button _button-3">Герои</button>
+      <div class="element element-4"></div>
+      <button onClick="window.location='history-first.html';" class="_button _button-4">История</button>
+      <div class="element element-5"></div>
+      <button onClick="window.location='other.html';" class="_button _button-5">Прочее</button>
+      <div class="element element-6"></div>
+      <button onClick="window.location='fanarts.html';" class="_button _button-6">Фанарты</button>
+    </div>
+    <div class="text text-2">
+      <p><strong>Трансформеры: Прайм</strong> — анимационный сериал о трансформерах, снят с использованием компьютерной графики.</p>
+      <p>Является частью объединённой вселенной. Показ первых двух эпизодов состоялся 26 ноября 2010 на телеканале Hub Network.&nbsp;</p>
+      <p>Официальный показ состоялся 29 ноября. С января 2012 г. началась трансляция мультсериала в России на телеканале <em>«Карусель»*</em>.</p>
+</div>
+    <div class="wrapper"><iframe width="100%" height="100%" src="http://www.youtube.com/embed/https://www.youtube.com/watch?v=CQeRsT-HhaU&index=1&list=PLyCdhLtjTwULkrK6VhePlyA32A_dyk_zy" frameborder="0" allowfullscreen></iframe></div>
+    <div class="element element-7"></div>
+    <div class="text text-3">
+      <p><strong>Название</strong>: Transformers: Prime
+</p>
+      <p><b>Производство</b>: Hasbro Studios, Digitalscape Co. Ltd., K/O Paper Products, Darby Pop Productions, 
+Polygon Pictures inc., Cartoon Network Studios
+</p>
+      <p><strong>Страна</strong>: США
+</p>
+      <p><strong>Жанры</strong>: Фантастика, Мультипликация, Боевик, Приключения
+</p>
+      <p><strong>Возрастное ограничение</strong>: 12+
+<br></p>
+</div>
+    <div class="element element-8"></div>
+    <div class="container container-5 clearfix">
+      <p class="text text-4">отзывы</p>
+      <label class="checkbox-label checkbox-label-1 clearfix">
+        <input class="checkbox" type="checkbox">
+        <span class="point-text">Всё классно!</span>
+      </label>
+      <label class="checkbox-label checkbox-label-2 clearfix">
+        <input class="checkbox" type="checkbox">
+        <span class="point-text">Всё ужасно!</span>
+      </label>
+      <label class="checkbox-label checkbox-label-3 clearfix">
+        <input class="checkbox checkbox-3" type="checkbox">
+        <span class="point-text point-text-3">Оставить свой отзыв:</span>
+        <textarea class="_textarea" placeholder="Введите текст..."></textarea>
+      </label>
+      <button onClick="window.location='comment.html';" class="_button _button-7">Отправить</button>
+    </div>
+    <div class="container container-6 clearfix">
+      <p id="menu" class="text text-5"><a href="#1a">Наверх</a></p>
+      <p class="text text-6">Камышова Анастасия, 2018</p>
+    </div>
+    <button onClick="window.location='https://www.karusel-tv.ru';" class="_button _button-8">*Карусель</button>
+  </div>
+
+  <script src="js/jquery-min.js"></script>
+</body>
+</html>

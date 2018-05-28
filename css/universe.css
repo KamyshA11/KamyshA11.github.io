@@ -1,0 +1,429 @@
+body {
+  height: 100%;
+  background: url('../images/%D1%84%D0%BE%D0%BD.jpg') rgba(21, 21, 21, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font: 400 1.125em/1.38 Helvetica;
+  color: rgb(187, 187, 187);
+}
+
+.checkbox {
+  display: block;
+  float: left;
+}
+
+.checkbox-label {
+  display: block;
+  height: 26px;
+}
+
+.point-text {
+  display: block;
+  float: left;
+}
+
+.text-2 p {
+  margin-bottom: 1em;
+}
+
+._button {
+  display: block;
+  float: left;
+  min-width: 90px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  border-radius: 3px;
+  font-size: 0.889em;
+  font-weight: 700;
+  text-align: center;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -o-transition: 400ms;
+  -ms-transition: 400ms;
+  transition: 400ms;
+}
+
+._button:hover {
+  border-radius: 10px;
+}
+
+._button:active {
+  background-color: rgb(28, 92, 111);
+}
+
+.checkbox-1,
+.checkbox-2 {
+  margin-top: 3px;
+}
+
+.checkbox-3 {
+  margin-top: 13px;
+}
+
+.checkbox-label-1 {
+  float: left;
+  clear: both;
+  width: 74.0654205607%;
+  margin: 40px 0 0 6.65639%;
+}
+
+.checkbox-label-2 {
+  float: left;
+  clear: both;
+  width: 93.2242990654%;
+  margin: 23px 0 0 6.75799%;
+}
+
+.checkbox-label-3 {
+  width: 86.6822429906%;
+  margin: 139px auto 0;
+}
+
+.container-1 {
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(18, 18, 18, 0.88);
+}
+
+.container-2 {
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 100%;
+  height: 487px;
+  background-image: url('../images/%D0%97%D0%BD%D0%B0%D0%BA%D0%B8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container-3 {
+  float: left;
+  width: 100%;
+  height: 146px;
+  background-color: rgba(18, 18, 18, 0.78);
+}
+
+.container-4 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 15;
+  width: 100%;
+  height: 83px;
+  margin-top: -83px;
+  background-color: rgba(18, 18, 18, 0.78);
+}
+
+.container-5 {
+  width: 446px;
+  height: 303px;
+  margin: 60px auto 0;
+}
+
+.container-6 {
+  float: left;
+  clear: both;
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  height: 118px;
+  margin-top: 21px;
+  background-color: rgba(18, 18, 18, 0.78);
+}
+
+.container-7 {
+  width: 800px;
+  height: 76px;
+  margin: 28px auto 0;
+}
+
+.element-1 {
+  float: left;
+  width: 105px;
+  min-width: 105px;
+  max-width: 105px;
+  height: 110px;
+  min-height: 110px;
+  max-height: 110px;
+  margin: 16px 0 0 29px;
+  background: url('../images/icon.ico') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-4 {
+  float: left;
+  width: 0.25%;
+  height: 63px;
+  margin: 8px 0 0 24px;
+  background-color: rgb(48, 160, 193);
+}
+
+.element-2,
+.element-3,
+.element-5 {
+  float: left;
+  width: 0.25%;
+  height: 63px;
+  margin: 8px 0 0 17px;
+  background-color: rgb(48, 160, 193);
+}
+
+.element-6 {
+  float: left;
+  width: 0.25%;
+  height: 63px;
+  margin: 8px 0 0 19px;
+  background-color: rgb(48, 160, 193);
+}
+
+.element-7 {
+  width: 215px;
+  min-width: 215px;
+  height: 3px;
+  margin: 110px auto 0;
+  background-color: rgb(48, 160, 193);
+}
+
+.point-text-1,
+.point-text-2 {
+  margin-left: 30px;
+}
+
+.point-text-3 {
+  width: 337px;
+  margin-left: 29px;
+}
+
+.text-1 {
+  float: left;
+  margin: 40px 0 0 24px;
+  font-size: 2.722em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  width: 740px;
+  min-width: 740px;
+  height: 640px;
+  min-height: 640px;
+  margin: 510px auto 0;
+  font-size: 1em;
+  text-align: justify;
+  color: rgb(187, 187, 187);
+}
+
+.text-3 {
+  width: 353px;
+  margin: 18px auto 0;
+  font-size: 1.111em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(187, 187, 187);
+}
+
+.text-4 {
+  float: left;
+  clear: both;
+  min-height: 25px;
+  margin: 49px 0 0 3.75%;
+  padding: 9px;
+  border-radius: 5px;
+  background-color: rgb(28, 92, 111);
+  font-size: 1.333em;
+  font-weight: 700;
+  color: rgb(187, 187, 187);
+}
+
+.text-5 {
+  float: left;
+  width: 37.25%;
+  min-height: 32px;
+  margin: 26px 0 0 62.75%;
+  font-style: italic;
+  font-size: 1.056em;
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-1 {
+  width: 95px;
+  max-width: 95px;
+  margin: 13px 0 0 19px;
+  background-color: rgb(18, 18, 18);
+  color: rgb(187, 187, 187);
+}
+
+.container ._button-2 {
+  width: 95px;
+  max-width: 95px;
+  margin: 13px 0 0 17px;
+  background-color: rgb(18, 18, 18);
+  color: rgb(48, 160, 193);
+}
+
+.container ._button-1:hover,
+.container ._button-2:hover {
+  background-color: rgb(48, 160, 193);
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-1:active,
+.container ._button-2:active {
+  box-shadow: 0 0 13px rgb(48, 160, 193) inset;
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-4 {
+  width: 95px;
+  max-width: 95px;
+  margin: 13px 0 0 21px;
+  background-color: rgb(18, 18, 18);
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.container ._button-3,
+.container ._button-5 {
+  width: 95px;
+  max-width: 95px;
+  margin: 13px 0 0 17px;
+  background-color: rgb(18, 18, 18);
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.container ._button-6 {
+  width: 95px;
+  max-width: 95px;
+  margin: 13px 0 0 16px;
+  background-color: rgb(18, 18, 18);
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.container ._button-3:hover,
+.container ._button-4:hover,
+.container ._button-5:hover,
+.container ._button-6:hover {
+  background-color: rgb(48, 160, 193);
+}
+
+.container ._button-3:active,
+.container ._button-4:active,
+.container ._button-5:active,
+.container ._button-6:active {
+  box-shadow: 0 0 13px rgb(48, 160, 193) inset;
+}
+
+.container ._button-7 {
+  clear: both;
+  width: 120px;
+  max-width: 120px;
+  margin: 26px 0 0 28px;
+  background-color: rgb(48, 160, 193);
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.container ._button-7:hover {
+  background-color: rgb(28, 92, 111);
+}
+
+.container ._button-7:active {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: 0 0 20px rgb(48, 160, 193);
+}
+
+.container ._button-7:focus {
+  background-color: rgba(48, 160, 193, 0.53);
+}
+
+.point-text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: rgb(187, 187, 187);
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: normal;
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}

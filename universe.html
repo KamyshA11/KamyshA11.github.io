@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>TF:P | Universe</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/universe-grid.css">
+  <link rel="stylesheet" href="css/universe.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top - 150;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+
+  
+</head>
+<body class="body page-universe clearfix">
+  <div class="container container-1 clearfix">
+    <div id="1a" class="container container-2 clearfix">
+      <div class="container container-3 clearfix">
+        <div onClick="window.location='main.html';" class="element element-1"></div>
+        <p class="text text-1">Transformers: Prime</p>
+      </div>
+    </div>
+    <div class="container container-4 clearfix">
+      <button onClick="window.location='main.html';" class="_button _button-1">Главная</button>
+      <div class="element element-2"></div>
+      <button class="_button _button-2">Вселенная</button>
+      <div class="element element-3"></div>
+      <button onClick="window.location='heroes-autobots.html';" class="_button _button-3">Герои</button>
+      <div class="element element-4"></div>
+      <button onClick="window.location='history-first.html';" class="_button _button-4">История</button>
+      <div class="element element-5"></div>
+      <button onClick="window.location='other.html';" class="_button _button-5">Прочее</button>
+      <div class="element element-6"></div>
+      <button onClick="window.location='fanarts.html';" class="_button _button-6">Фанарты</button>
+    </div>
+    <div class="text text-2">
+      <p><strong>«Трансфо́рмеры»</strong> — история, повествующая о войне между инопланетными разумными машинами, которые могут трансформироваться в легковые автомобили, грузовики, самолёты, технику.
+
+</p>
+      <p>«Hasbro» работали с компанией «Marvel Comics», чтобы продвинуть свою серию «G.I. Joe: A Real American Hero», применяя трехаспектную маркетинговую схему. Эта схема включала в себя: набор игрушек, комплект комиксов от «Marvel», и мультсериал, нарисованный «Marvel Productions» и студией мультипликации «Sunbow Productions».&nbsp;</p>
+      <p>Эта стратегия была повторена в 1984 году для продвижения новой серии «Трансформеры». 
+Главный редактор «Marvel», Джим Шутер, предложил идею двух враждующих фракций инопланетных роботов — героические автоботы и злые десептиконы.&nbsp;</p>
+      <p>Чтобы изложить эту идею подробнее, Шутер попросил редактора Денниса О’Нила придумать имена и характеры, но работа О’Нила не оправдала ожидания фирмы «Hasbro», и они просили всё переделать. После отказа О’Нила от переделки за проект взялся редактор Боб Будянски. Быстро выполнив работу за уикенд, он представил новые имена и характеры руководству «Hasbro».&nbsp;</p>
+      <p>Вскоре после этого были выпущены комиксы (четыре журнала, которые выходили дважды в месяц) и пилотный мультфильм, состоящий из трёх серий.</p>
+      <p>Японский дизайнер Сохей Кохара нарисовал самые ранние модели персонажей «Трансформеров». Он сильно переделал игрушечные проекты, сделав их более похожими на людей, чтобы создать больше персонажей для комикса и мультфильма. Его проекты были упрощены Флоро Дери, который стал ведущим проектировщиком для сериала.</p>
+</div>
+    <div class="element element-7"></div>
+    <div class="container container-5 clearfix">
+      <p class="text text-3">А тебе нравятся Трансформеры?</p>
+      <label class="checkbox-label checkbox-label-1 clearfix">
+        <input class="checkbox checkbox-1" type="checkbox">
+        <span class="point-text point-text-1"><span>Да, мне они нравятся!</span></span>
+      </label>
+      <label class="checkbox-label checkbox-label-2 clearfix">
+        <input class="checkbox checkbox-2" type="checkbox">
+        <span class="point-text point-text-2"><span>Нет, мне они не нравятся!</span></span>
+      </label>
+      <label class="checkbox-label checkbox-label-3 clearfix">
+        <input class="checkbox checkbox-3" type="checkbox">
+        <span class="point-text point-text-3"><span>Средне. Что-то нравится, что-то — нет.</span></span>
+      </label>
+      <button onClick="window.location='comment-uni.html';" class="_button _button-7">Отправить</button>
+    </div>
+    <p id="menu" class="text text-4"><a href="#1a">Наверх</a></p>
+    <div class="container container-6 clearfix">
+      <div class="container container-7 clearfix">
+        <p class="text text-5">Камышова Анастасия, 2018</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-min.js"></script>
+</body>
+</html>

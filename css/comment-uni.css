@@ -1,0 +1,253 @@
+body {
+  height: 100%;
+  background: url('../images/%D1%84%D0%BE%D0%BD.jpg') rgb(21, 21, 21);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font: 700 1em/1.38 Helvetica;
+  color: rgb(187, 187, 187);
+}
+
+._button {
+  display: block;
+  float: left;
+  width: 95px;
+  min-width: 90px;
+  max-width: 95px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  margin-top: 13px;
+  border-radius: 3px;
+  background-color: rgb(18, 18, 18);
+  font-size: 1em;
+  text-align: center;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -o-transition: 400ms;
+  -ms-transition: 400ms;
+  transition: 400ms;
+}
+
+._button:hover {
+  border-radius: 10px;
+  background-color: rgb(48, 160, 193);
+}
+
+._button:active {
+  background-color: rgb(28, 92, 111);
+  box-shadow: 0 0 13px rgb(48, 160, 193) inset;
+}
+
+.container-1 {
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(18, 18, 18, 0.88);
+}
+
+.container-2 {
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 100%;
+  height: 487px;
+  background-image: url('../images/%D0%97%D0%BD%D0%B0%D0%BA%D0%B8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container-3 {
+  float: left;
+  width: 100%;
+  height: 146px;
+  background-color: rgba(18, 18, 18, 0.78);
+}
+
+.container-4 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 15;
+  width: 100%;
+  height: 83px;
+  margin-top: -83px;
+  background-color: rgba(18, 18, 18, 0.78);
+}
+
+.container-5 {
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  height: 118px;
+  margin: 129px auto 0;
+  background-color: rgba(18, 18, 18, 0.78);
+}
+
+.element-1 {
+  float: left;
+  width: 105px;
+  min-width: 105px;
+  max-width: 105px;
+  height: 110px;
+  min-height: 110px;
+  max-height: 110px;
+  margin: 16px 0 0 29px;
+  background: url('../images/icon.ico') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-4 {
+  float: left;
+  width: 0.25%;
+  height: 63px;
+  margin: 8px 0 0 24px;
+  background-color: rgb(48, 160, 193);
+}
+
+.element-2,
+.element-5 {
+  float: left;
+  width: 0.25%;
+  height: 63px;
+  margin: 8px 0 0 17px;
+  background-color: rgb(48, 160, 193);
+}
+
+.element-3,
+.element-6 {
+  float: left;
+  width: 0.25%;
+  height: 63px;
+  margin: 8px 0 0 19px;
+  background-color: rgb(48, 160, 193);
+}
+
+.element-7 {
+  width: 62.875%;
+  height: 330px;
+  margin: 0 auto;
+  background: url('../images/%D0%9C%D0%BE%D1%80%D0%B5%20%D0%A0%D0%B6%D0%B0%D0%B2%D1%87%D0%B8%D0%BD%D1%8B.jpg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -o-transition: 400ms;
+  -ms-transition: 400ms;
+  transition: 400ms;
+}
+
+.element-7:hover {
+  -webkit-transform: rotate.360d;
+  -moz-transform: rotate.360d;
+  -o-transform: rotate.360d;
+  -ms-transform: rotate.360d;
+  transform: rotate.360d;
+}
+
+.text-1 {
+  float: left;
+  margin: 40px 0 0 24px;
+  font-size: 3.063em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  width: 31.6249999999%;
+  min-height: 80px;
+  margin: 527px auto 0;
+  font-size: 1.688em;
+  text-align: center;
+  color: rgb(187, 187, 187);
+}
+
+.text-3 {
+  float: left;
+  min-height: 25px;
+  margin: 38px 0 0 3.125%;
+  padding: 9px;
+  border-radius: 5px;
+  background-color: rgb(28, 92, 111);
+  font-size: 1.5em;
+  color: rgb(187, 187, 187);
+}
+
+.text-4 {
+  float: left;
+  width: 33.625%;
+  min-height: 32px;
+  margin: 47px 0 0 48.25%;
+  font-style: italic;
+  font-size: 1.188em;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-1 {
+  margin-left: 19px;
+  color: rgb(187, 187, 187);
+}
+
+.container ._button-1:hover {
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-1:active {
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-2 {
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.container ._button-4 {
+  margin-left: 21px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.container ._button-3,
+.container ._button-5 {
+  margin-left: 17px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.container ._button-6 {
+  margin-left: 16px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
